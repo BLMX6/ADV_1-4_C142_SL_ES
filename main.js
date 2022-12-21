@@ -31,7 +31,7 @@ function setup() {
 }
 
 function modelLoaded() {
-  console.log('PoseNet Is Initialized');
+  console.log('PoseNet está inicializado');
 }
 
 function gotPoses(results)
@@ -72,7 +72,7 @@ function draw() {
 		if(song1_status == false)
 		{
 			song1.play();
-			document.getElementById("song").innerHTML = "Playing - Harry Potter Theme Song"
+			document.getElementById("song").innerHTML = "Reproduciendo: canción de Harry Potter"
 		}
 	}
 
@@ -85,7 +85,7 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song").innerHTML = "Playing - Peter Pan Song"
+			document.getElementById("song").innerHTML = "Reproduciendo: canción de Peter Pan"
 		}
 	}
 
